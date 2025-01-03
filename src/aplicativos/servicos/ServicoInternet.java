@@ -1,4 +1,5 @@
 package aplicativos.servicos;
 
-public class ServicoInternet {
+public interface ServicoInternet {
+    public void validarInternet();
 }

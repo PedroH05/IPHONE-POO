@@ -1,4 +1,5 @@
 package aplicativos.servicos;
 
-public class ServicoCredito {
+public interface ServicoCredito {
+    public void validandoCredito();
 }

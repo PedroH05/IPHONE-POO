@@ -1,4 +1,17 @@
 package aplicativos;
 
-public class MusicApple {
+import aplicativos.servicos.ServicoInternet;
+
+public class MusicApple implements ServicoInternet {
+
+    public void escolhendoMusica(){
+        validarInternet();
+        System.out.println("Escolhendo a musica | music");
+        System.out.println("Musica escolhida foi You shook me all night long | music");
+    }
+
+    @Override
+    public void validarInternet() {
+
+    }
 }

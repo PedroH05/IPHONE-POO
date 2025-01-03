@@ -1,4 +1,5 @@
 package aplicativos.servicos;
 
-public class ServicoSinal {
+public interface ServicoSinal {
+    public void validandoSinal();
 }

@@ -1,4 +1,6 @@
 package aplicativos.servicos;
 
-public class ServicoMensagem {
+public interface ServicoMensagem {
+    public void enviarMensagem();
+    public void receberMensagem();
 }
